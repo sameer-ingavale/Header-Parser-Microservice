@@ -1,7 +1,11 @@
 let express = require('express');
-let parser = require('ua-parser-js')
+let parser = require('ua-parser-js');
+let favicon = require('serve-favicon');
+let path = require('path');
 
 const app = module.exports = express();
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.get('/api/whoami', (req,res) => {
 

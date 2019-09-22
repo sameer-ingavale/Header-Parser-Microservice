@@ -12,6 +12,10 @@
     font-family: lato-light;
 }
 
+a:link {
+    text-decoration: none;
+color: #DD127B;
+}
 
 a:visited {
         text-decoration: none;
