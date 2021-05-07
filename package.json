@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "ua-parser-js": "^0.7.20"
+    "ua-parser-js": "^0.7.24"
   }
 }
